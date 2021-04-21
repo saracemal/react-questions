@@ -19,3 +19,5 @@ They are functions that render the DOM solely based on the properties assigned t
 
 5. What is the virtual DOM? 
 For starters: DOM stands for Document Object Model, made up of HTML text, whose elements become nodes in the DOM. 
+
+6. What is a React component? A small, reusable chunk of code that is responsible for obe job (usually rendering HTML). 
