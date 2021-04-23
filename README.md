@@ -5,7 +5,13 @@ Here is where I will be answering React questions to help me in my endeavors, bu
 1. What is React?
 React is an open-source Javascript library developed and maintained by Google, created in 2013. React helps create quickly responsive and dynamic web applications (React Native for mobile applications). React is built on using components to organize and allows for flexibility when creating the architecture for the project.
 
-2. React vs Angular?
+React disadvantages?
+It is just a library, not a full blown language or framework. It can be difficult for novice programmers to understand if they don't have a good understanding of javascript and HTML, considering that JSX requires you to know both.  
+
+2. React vs Angular? 
+React uses the virtual DOM, where Angular uses the full DOM.
+React uses server side rendering, where angular uses client-side rendering. 
+React is created and maintained by Facebook, where Angular is by Google. 
 
 3. What is JSX?
 JSX is a new "dialect" of Javascript code that will embed HTML elements into JS code. It is a "syntax extension", meaning it will not be read as Javascript and be displayed to the DOM. The file has to get complied by a JSX compiler and translate it to regular JS. At the moment, there are no browsers that have a built in compiler, so you need to have a transformer like Babel that can do it for you. JSX can be treated as a JS expression, meaning it can be saved to a variable, passed to a function, stored in an array, etc. You can also add attributes to it, similar to HTML, and it has the ability to be nested. 
@@ -21,3 +27,9 @@ They are functions that render the DOM solely based on the properties assigned t
 For starters: DOM stands for Document Object Model, made up of HTML text, whose elements become nodes in the DOM. 
 
 6. What is a React component? A small, reusable chunk of code that is responsible for obe job (usually rendering HTML). 
+
+7. What are props?
+Props are a shorthand for "properties", and they are immutable components passed through from parent to child and they help render data. 
+
+8. What is state?
+State is a mutable data source within a react component that helps create dynamic and interactive components. 
