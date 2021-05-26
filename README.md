@@ -33,3 +33,13 @@ Props are a shorthand for "properties", and they are immutable components passed
 
 8. What is state?
 State is a mutable data source within a react component that helps create dynamic and interactive components. 
+
+9. What are refs in React?
+Refs are used for storing the reference of element or component returned by the component render() configuration function.
+When should you use refs?
+
+10. What is the differences between an element or a component in React? 
+A react element is a representation of some sort of user interface, and it describes what you want displayed on the screen. A component is a function that can accept input but also return a React element. 
+
+11. What is the significance of keys in React?
+
