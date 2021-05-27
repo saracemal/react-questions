@@ -42,4 +42,4 @@ When should you use refs?
 A react element is a representation of some sort of user interface, and it describes what you want displayed on the screen. A component is a function that can accept input but also return a React element. 
 
 11. What is the significance of keys in React?
-
+Keys are helpful in identifying the individual elements you want displayed on the virtual DOM. Keys help React optimize the rendering, as well as only making React reorder keys instead of rerendering them. It's important to use the index as keys within a DOM element instead of id, to help further optimize this rendering. 
