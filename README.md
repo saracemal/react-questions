@@ -26,7 +26,7 @@ They are functions that render the DOM solely based on the properties assigned t
 5. What is the virtual DOM? 
 For starters: DOM stands for Document Object Model, made up of HTML text, whose elements become nodes in the DOM. 
 
-6. What is a React component? A small, reusable chunk of code that is responsible for obe job (usually rendering HTML). 
+6. What is a React component? A small, reusable chunk of code that is responsible for one job (usually rendering HTML). 
 
 7. What are props?
 Props are a shorthand for "properties", and they are immutable components passed through from parent to child and they help render data. 
@@ -43,3 +43,6 @@ A react element is a representation of some sort of user interface, and it descr
 
 11. What is the significance of keys in React?
 Keys are helpful in identifying the individual elements you want displayed on the virtual DOM. Keys help React optimize the rendering, as well as only making React reorder keys instead of rerendering them. It's important to use the index as keys within a DOM element instead of id, to help further optimize this rendering. 
+
+12. Is setState() async?
+Yes. It creates a "pending" state reaction and rerenders whenever there are calls to the state. Making it synchronous could cause unexpected behaviors, as well as an unresponsive UI. 
