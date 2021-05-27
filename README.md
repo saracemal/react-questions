@@ -46,3 +46,6 @@ Keys are helpful in identifying the individual elements you want displayed on th
 
 12. Is setState() async?
 Yes. It creates a "pending" state reaction and rerenders whenever there are calls to the state. Making it synchronous could cause unexpected behaviors, as well as an unresponsive UI. 
+
+13. What is context?
+Context enables passing data through the component tree without having to pass props down manually at every level. Which means you can deep-nest items without issue.  It is primarily used when some data needs to be accessible by many components at different nesting levels.
